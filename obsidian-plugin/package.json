@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && cp manifest.json dist/ && echo \"✅ Plugin built to dist/ folder\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

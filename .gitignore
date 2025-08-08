@@ -5,9 +5,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build outputs
-dist/
 build/
 *.tsbuildinfo
+
+# Keep dist folder for obsidian plugin, but ignore root main.js
+obsidian-plugin/main.js
 
 # Environment variables
 .env

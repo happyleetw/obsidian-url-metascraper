@@ -1,0 +1,10 @@
+{
+	"id": "url-bookmark-converter",
+	"name": "URL Bookmark Converter",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Convert URLs to bookmark cards using metascraper",
+	"author": "happylee",
+	"authorUrl": "https://happylee.app",
+	"isDesktopOnly": false
+}
