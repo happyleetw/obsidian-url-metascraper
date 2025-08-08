@@ -5,9 +5,9 @@ const path = require('path');
 
 // 配置
 const CONFIG = {
-  apiEndpoint: 'https://url-metascraper.happylee-tw.workers.dev/scraper', // workers.dev API 端點
+  apiEndpoint: 'https://happylee.app/scraper', // 自訂域名 API 端點
   testFile: 'test-content.md',
-  outputFile: 'test-content-workers-dev.md'
+  outputFile: 'test-content-custom-domain.md'
 };
 
 // 模擬 Plugin 的核心功能

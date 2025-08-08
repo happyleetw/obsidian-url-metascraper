@@ -29,7 +29,7 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
-  apiEndpoint: "https://url-metascraper.happylee-tw.workers.dev/scraper"
+  apiEndpoint: "https://happylee.app/scraper"
 };
 var UrlBookmarkConverterPlugin = class extends import_obsidian.Plugin {
   async onload() {

@@ -29,7 +29,7 @@ interface PluginSettings {
 }
 
 const DEFAULT_SETTINGS: PluginSettings = {
-  apiEndpoint: 'https://url-metascraper.happylee-tw.workers.dev/scraper'
+  apiEndpoint: 'https://happylee.app/scraper'
 }
 
 export default class UrlBookmarkConverterPlugin extends Plugin {
