@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-url-metascraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "got": "^14.4.7",
+    "metascraper": "^5.49.1",
+    "metascraper-description": "^5.49.1",
+    "metascraper-image": "^5.49.1",
+    "metascraper-title": "^5.49.1",
+    "metascraper-url": "^5.49.1"
+  }
+}

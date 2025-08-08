@@ -1,0 +1,28 @@
+{
+  "name": "cloudflare-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "metascraper": "^5.49.1",
+    "metascraper-author": "^5.49.1",
+    "metascraper-description": "^5.49.1",
+    "metascraper-image": "^5.49.1",
+    "metascraper-logo": "^5.49.1",
+    "metascraper-publisher": "^5.49.1",
+    "metascraper-title": "^5.49.1",
+    "metascraper-url": "^5.49.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250807.0",
+    "wrangler": "^4.28.1"
+  }
+}

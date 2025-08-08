@@ -1,0 +1,11 @@
+name = "url-metascraper"
+main = "src/index.js"
+compatibility_date = "2024-12-26"
+compatibility_flags = ["nodejs_compat"]
+
+# 保留 workers.dev 主要網址
+# routes 是額外的自訂路由，不會覆蓋 workers.dev 網址
+# 如需要自訂域名，請取消下方註解
+# routes = [
+#   { pattern = "happylee.app/scraper/*", zone_name = "happylee.app" }
+# ]
