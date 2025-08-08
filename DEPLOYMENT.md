@@ -4,11 +4,11 @@
 
 ### 📍 部署資訊
 - **Worker 名稱**: `url-metascraper`
-- **主要網址**: `https://url-metascraper.happylee-tw.workers.dev` ✅
-- **自訂路由**: `https://happylee.app/scraper/*` (已配置)
-- **API 端點**: `https://url-metascraper.happylee-tw.workers.dev/scraper/{encoded_url}` ✅ 
-- **版本 ID**: `fbed6c32-25f0-46d5-8142-4d34e3d7080e`
+- **自訂域名**: `https://happylee.app/scraper/*` ✅ 已啟用
+- **API 端點**: `https://happylee.app/scraper/{encoded_url}` ✅ 瀏覽器測試正常
+- **版本 ID**: `8ae80b3b-d821-4594-a919-00f0ce0bd4ef`
 - **部署時間**: 2025-08-08
+- **備註**: workers.dev 網址已停用（設定自訂路由後的正常行為）
 
 ### ✅ 測試狀態
 - **本地測試**: ✅ 通過
@@ -20,16 +20,20 @@
 
 ```bash
 # 測試 GitHub 頁面
-curl "https://url-metascraper.happylee-tw.workers.dev/scraper/https%3A%2F%2Fgithub.com%2Fmicrolinkhq%2Fmetascraper"
+curl "https://happylee.app/scraper/https%3A%2F%2Fgithub.com%2Fmicrolinkhq%2Fmetascraper"
 
 # 測試 npm 頁面  
-curl "https://url-metascraper.happylee-tw.workers.dev/scraper/https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fmetascraper"
+curl "https://happylee.app/scraper/https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fmetascraper"
+
+# 瀏覽器測試範例
+https://happylee.app/scraper/https://happylee.blog
 ```
 
 ### 📱 Plugin 設定
-Obsidian Plugin 已自動更新為使用生產環境 API：
-- **預設 API 端點**: `https://url-metascraper.happylee-tw.workers.dev/scraper`
+Obsidian Plugin 已更新為使用自訂域名 API：
+- **預設 API 端點**: `https://happylee.app/scraper`
 - **相容性**: Desktop ✅ | Mobile ✅
+- **瀏覽器測試**: ✅ 正常運作
 
 ### 🔧 管理命令
 
